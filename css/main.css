@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Century Gothic, sans-serif;
+  color: #3B3A3A; }
+
+.menu, .contacto, .formulario, .mapa {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto; }
+
+header {
+  background-color: #eaeaea; }
+
+.menu {
+  list-style: none;
+  background-color: #eaeaea;
+  width: 1000px; }
+  .menu li {
+    padding-top: 20px; }
+
+.pisition {
+  position: relative;
+  margin-left: 465px; }
+  .pisition li {
+    display: inline-block;
+    margin: 0px 10px 20px 10px; }
+    .pisition li a {
+      text-decoration: none;
+      position: relative;
+      margin-right: 10px; }
+
+/*Contacto*/
+.contacto {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px; }
+  .contacto h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px; }
+
+/*FORMULARIO*/
+.container, .formulario, .mapa {
+  width: 63.9%;
+  margin: 1.5%;
+  float: left;
+  background-color: #f9f9f9; }
+
+.mapa {
+  width: 30%;
+  float: left;
+  background-color: #f9f9f9; }
+
+h4 {
+  font-size: 16px;
+  font-style: italic;
+  margin: 10px 0px; }
+
+.form p {
+  font-size: 12px;
+  font-style: italic;
+  color: #B0AFB0;
+  margin: 10px 0px; }
+
+.down-section p {
+  font-size: 12px;
+  font-style: italic;
+  color: #B0AFB0;
+  margin: 10px 0px; }
+
+.location p {
+  font-size: 14px;
+  margin: 15px 0px; }
+
+.boton {
+  border: 2px solid #00bfff;
+  border-radius: 51px 51px;
+  color: #B0AFB0;
+  padding: 8px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; }
+
+/*# sourceMappingURL=main.css.map */

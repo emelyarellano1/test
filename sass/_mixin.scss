@@ -1,0 +1,58 @@
+@mixin menu-lista{
+	list-style: none;
+	background-color: $color-menu;
+	width: 1000px;  
+}
+@mixin manu-estilos-lista {
+	display: inline-block;
+	margin:0px 10px 20px 10px;
+}
+@mixin manu-etiqueta {
+	text-decoration: none;
+	position: relative;
+	margin-right: 10px; 
+}
+
+@mixin texto-centredo {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+@mixin posicion {
+	width: 63.9%;
+	margin: 1.5%;
+	float: left;
+	background-color: #f9f9f9;
+}
+
+@mixin posicion-dos {
+	width: 30%;
+	float: left;
+	background-color: #f9f9f9;
+}
+@mixin fuente-h {
+	font-size: $font-size-h4;
+	font-style: italic;
+	margin: 10px 0px;
+}
+@mixin fuente-parrafo {
+	font-size: $font-size-p;
+	font-style: italic;
+	color: $color-perrafo;
+	margin: 10px 0px;
+}
+@mixin mapa-location {
+	font-size: $font-size-parrafo;
+	margin: 15px 0px;
+}
+@mixin enviar {
+    border: 2px solid #00bfff;
+    border-radius: 51px 51px;
+    color: $color-perrafo;
+    padding: 8px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	
+}
